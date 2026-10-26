@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+
+    <AssemblyName>BatteryRescueAlert</AssemblyName>
+    <RootNamespace>BatteryRescueAlert.Desktop</RootNamespace>
+    <ApplicationIcon>Assets\BatteryRescueAlert.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Description>Early-warning battery notifications for Windows laptops.</Description>
+    <AssemblyTitle>Battery Rescue Alert</AssemblyTitle>
+    <NeutralLanguage>en</NeutralLanguage>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <UseSystemResourceKeys>false</UseSystemResourceKeys>
+    <!-- WPF does not support trimming; keep the publish output simple and reliable. -->
+    <PublishTrimmed>false</PublishTrimmed>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\BatteryRescueAlert.ico" />
+    <Resource Include="Assets\app-logo-64.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BatteryRescueAlert.Core\BatteryRescueAlert.Core.csproj" />
+    <ProjectReference Include="..\BatteryRescueAlert.Windows\BatteryRescueAlert.Windows.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Dark palette (same keys as the light one so the theme can be swapped at runtime). -->
+    <SolidColorBrush x:Key="BgBrush" Color="#14181D" />
+    <SolidColorBrush x:Key="SurfaceBrush" Color="#1D2329" />
+    <SolidColorBrush x:Key="SurfaceAltBrush" Color="#27303A" />
+    <SolidColorBrush x:Key="LineBrush" Color="#3A4550" />
+    <SolidColorBrush x:Key="TextBrush" Color="#E9EEF2" />
+    <SolidColorBrush x:Key="TextMutedBrush" Color="#A9B6C2" />
+    <SolidColorBrush x:Key="AccentBrush" Color="#3FB8AF" />
+    <SolidColorBrush x:Key="AccentHoverBrush" Color="#5CCBC3" />
+    <SolidColorBrush x:Key="AccentPressedBrush" Color="#2E9D95" />
+    <SolidColorBrush x:Key="OnAccentBrush" Color="#06201F" />
+    <SolidColorBrush x:Key="GoodBrush" Color="#4CC26B" />
+    <SolidColorBrush x:Key="WarnBrush" Color="#F0B143" />
+    <SolidColorBrush x:Key="DangerBrush" Color="#FF8A80" />
+    <SolidColorBrush x:Key="TrackBrush" Color="#33404B" />
+    <SolidColorBrush x:Key="FocusBrush" Color="#7FB4FF" />
+    <SolidColorBrush x:Key="NoticeBgBrush" Color="#3A2F14" />
+    <SolidColorBrush x:Key="NoticeLineBrush" Color="#B88A2E" />
+    <SolidColorBrush x:Key="DisabledTextBrush" Color="#7B8996" />
+</ResourceDictionary>

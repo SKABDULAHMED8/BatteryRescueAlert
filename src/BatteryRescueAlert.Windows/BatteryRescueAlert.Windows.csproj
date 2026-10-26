@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <!-- Explicit usings only: WPF and WinForms share type names (Application, Button, ...). -->
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>BatteryRescueAlert.Windows</RootNamespace>
+    <AssemblyName>BatteryRescueAlert.Windows</AssemblyName>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BatteryRescueAlert.Core\BatteryRescueAlert.Core.csproj" />
+  </ItemGroup>
+
+</Project>

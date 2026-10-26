@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <Version>1.0.5</Version>
+    <Authors>Battery Rescue Alert contributors</Authors>
+    <Company>Battery Rescue Alert</Company>
+    <Product>Battery Rescue Alert</Product>
+    <Copyright>Copyright (c) 2026 Battery Rescue Alert contributors</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+</Project>
